@@ -1,0 +1,23 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "Building a local chat server using node and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianblakesleet/chat-server.git"
+  },
+  "author": "Ian Blakeslee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianblakesleet/chat-server/issues"
+  },
+  "homepage": "https://github.com/ianblakesleet/chat-server#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
